@@ -1,0 +1,16 @@
+{
+  "model": "densenet121",
+  "split": "val",
+  "accuracy": 0.8647,
+  "precision": 0.9921,
+  "recall": 0.7952,
+  "f1_binary": 0.8828,
+  "auc_roc": 0.9764,
+  "kappa": 0.7273,
+  "benign_precision": 0.7301,
+  "benign_recall": 0.9887,
+  "benign_f1": 0.84,
+  "malignant_precision": 0.9921,
+  "malignant_recall": 0.7952,
+  "malignant_f1": 0.8828
+}

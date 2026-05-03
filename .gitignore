@@ -1,0 +1,79 @@
+
+# ==================================================
+# Breast Cancer Detection Project - .gitignore
+# ==================================================
+
+# --------------------------
+# Python cache / compiled
+# --------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --------------------------
+# Build / packaging
+# --------------------------
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+
+# --------------------------
+# Virtual environments
+# --------------------------
+venv/
+env/
+.venv/
+
+# --------------------------
+# Jupyter
+# (keeps notebooks, ignores temp checkpoints only)
+# --------------------------
+.ipynb_checkpoints/
+
+# --------------------------
+# IDE / Editor files
+# --------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------------
+# OS system files
+# --------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------
+# Logs / runtime
+# --------------------------
+*.log
+runs/
+
+# --------------------------
+# Gradio temporary files
+# --------------------------
+gradio_cached_examples/
+flagged/
+
+# --------------------------
+# Kaggle / raw dataset folders
+# --------------------------
+kaggle/
+input/
+
+# --------------------------
+# Archives
+# --------------------------
+*.zip
+
+# --------------------------
+# Temporary model checkpoints
+# (best model weights remain tracked)
+# --------------------------
+models/*_checkpoint.pth
+

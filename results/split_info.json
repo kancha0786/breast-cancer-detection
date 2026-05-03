@@ -1,0 +1,9 @@
+{
+  "train_images": 5374,
+  "train_patients": 54,
+  "val_images": 983,
+  "val_patients": 11,
+  "test_images": 1552,
+  "test_patients": 16,
+  "all_subtypes_covered": true
+}

@@ -1,0 +1,16 @@
+{
+  "model": "resnet50",
+  "split": "test",
+  "accuracy": 0.7854,
+  "precision": 0.9295,
+  "recall": 0.6731,
+  "f1_binary": 0.7808,
+  "auc_roc": 0.9177,
+  "kappa": 0.581,
+  "benign_precision": 0.6849,
+  "benign_recall": 0.9329,
+  "benign_f1": 0.7899,
+  "malignant_precision": 0.9295,
+  "malignant_recall": 0.6731,
+  "malignant_f1": 0.7808
+}

@@ -1,0 +1,22 @@
+{
+  "subtype_to_id": {
+    "adenosis": 0,
+    "ductal_carcinoma": 1,
+    "fibroadenoma": 2,
+    "lobular_carcinoma": 3,
+    "mucinous_carcinoma": 4,
+    "papillary_carcinoma": 5,
+    "phyllodes_tumor": 6,
+    "tubular_adenoma": 7
+  },
+  "id_to_subtype": {
+    "0": "adenosis",
+    "1": "ductal_carcinoma",
+    "2": "fibroadenoma",
+    "3": "lobular_carcinoma",
+    "4": "mucinous_carcinoma",
+    "5": "papillary_carcinoma",
+    "6": "phyllodes_tumor",
+    "7": "tubular_adenoma"
+  }
+}

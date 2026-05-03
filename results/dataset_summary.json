@@ -1,0 +1,33 @@
+{
+  "total_images": 7909,
+  "unique_patients": 81,
+  "num_classes": 8,
+  "subtype_to_id": {
+    "adenosis": 0,
+    "ductal_carcinoma": 1,
+    "fibroadenoma": 2,
+    "lobular_carcinoma": 3,
+    "mucinous_carcinoma": 4,
+    "papillary_carcinoma": 5,
+    "phyllodes_tumor": 6,
+    "tubular_adenoma": 7
+  },
+  "images_per_subtype": {
+    "ductal_carcinoma": 3451,
+    "fibroadenoma": 1014,
+    "mucinous_carcinoma": 792,
+    "lobular_carcinoma": 626,
+    "tubular_adenoma": 569,
+    "papillary_carcinoma": 560,
+    "phyllodes_tumor": 453,
+    "adenosis": 444
+  },
+  "images_per_mag": {
+    "100X": 2081,
+    "200X": 2013,
+    "40X": 1995,
+    "400X": 1820
+  },
+  "benign_count": 2480,
+  "malignant_count": 5429
+}
