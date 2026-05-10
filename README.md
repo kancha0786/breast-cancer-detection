@@ -5,6 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)](https://pytorch.org)
 [![Kaggle](https://img.shields.io/badge/Notebook-Kaggle-20BEFF.svg)](https://www.kaggle.com/code/kanchansaxena8808/breakhis-bcd-finalvers)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Demo-HuggingFace-yellow.svg)](https://huggingface.co/spaces/kanchansaxena/breast-cancer-detection)
 
 > **M.Sc. Semester 4 Project**
 > **Kanchan Saxena**
@@ -238,46 +239,67 @@ Intermediate layer activations showing how the model progressively learns from l
 ```
 breast-cancer-detection/
 │
-├── app.py                                  # Gradio demo interface
-├── requirements.txt                        # Python dependencies
-├── README.md                               # This file
+├── app.py                           # Gradio demo interface
+├── requirements.txt                 # Python dependencies
+├── README.md                        # Project documentation
 │
 ├── models/
-│   ├── efficientnet_b3_best.pth            # 45.0 MB
-│   ├── densenet121_best.pth                # 29.5 MB
-│   ├── resnet50_best.pth                   # 96.5 MB
+│   ├── efficientnet_b3_best.pth
+│   ├── densenet121_best.pth
+│   ├── resnet50_best.pth
 │   └── ensemble_weights.json
 │
 ├── results/
-│   ├── training_curves_*.png               # Training curves (3 files)
-│   ├── confusion_{val,test}_*.png          # Confusion matrices (8 files)
-│   ├── roc_auc_{val,test}_all.png          # ROC-AUC curves
-│   ├── per_class_{val,test}.png            # Per-class metrics
-│   ├── model_comparison_test.png           # Model comparison chart
-│   ├── sample_images.png                   # Dataset sample figure
-│   ├── class_distribution.png             # Class distribution plots
-│   ├── augmentation_preview.png            # Augmentation examples
-│   ├── all_metrics.json                    # All metrics (structured)
-│   ├── gradcam/                            # Grad-CAM figures (7 files)
-│   ├── lime/                               # LIME figures
-│   ├── features/                           # Feature maps + analysis
-│   ├── metrics/                            # Per-model JSON metrics
-│   ├── predictions/                        # Saved .npy predictions
-│   └── ensemble/                           # Ensemble outputs
+│   ├── training_curves_*.png
+│   ├── confusion_{val,test}_*.png
+│   ├── roc_auc_{val,test}_all.png
+│   ├── per_class_{val,test}.png
+│   ├── model_comparison_test.png
+│   ├── sample_images.png
+│   ├── class_distribution.png
+│   ├── augmentation_preview.png
+│   ├── all_metrics.json
+│   ├── gradcam/
+│   ├── lime/
+│   ├── features/
+│   ├── metrics/
+│   ├── predictions/
+│   └── ensemble/
 │
 ├── splits/
-│   ├── train_split.csv                     # 5,374 images, 54 patients
-│   ├── val_split.csv                       # 983 images, 11 patients
-│   ├── test_split.csv                      # 1,552 images, 16 patients
+│   ├── train_split.csv
+│   ├── val_split.csv
+│   ├── test_split.csv
 │   └── label_mapping.json
 │
-└── notebooks/
-    └── breakhis-bcd-finalvers.ipynb        # Full Kaggle notebook
+├── notebooks/
+│   └── breakhis-bcd-finalvers.ipynb
+│
+└── examples/
+    ├── benign_adenosis.png
+    ├── benign_fibroadenoma.png
+    ├── benign_phyllodes_tumor.png
+    ├── benign_tubular_adenoma.png
+    ├── malignant_ductal_carcinoma.png
+    ├── malignant_lobular_carcinoma.png
+    ├── malignant_mucinous_carcinoma.png
+    └── malignant_papillary_carcinoma.png
+
 ```
 
 ---
 
 ## 🚀 How to Run
+
+### 🌐 Live Demo — no installation needed
+
+Try the app directly in your browser:
+
+🔗 [Open Live Demo](https://huggingface.co/spaces/kanchansaxena/breast-cancer-detection)
+
+Upload any breast histopathology image and get an instant prediction.
+
+---
 
 ### View the full training notebook
 
