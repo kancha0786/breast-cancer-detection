@@ -38,6 +38,38 @@ The system includes full model interpretability through **Grad-CAM** heatmaps, *
 > ⚠️ This project is developed for **academic research purposes only** and is not intended for clinical diagnosis or medical decision-making.
 
 ---
+## 📸 Web Interface Preview
+
+### 🏠 Home Page
+The home interface allows users to upload histopathological breast tissue images and perform automated breast cancer prediction using the trained deep learning model.
+
+![Home Page](app_screenshots/home.png)
+
+---
+
+### 🧪 Prediction Demo
+This section demonstrates the prediction workflow of the system, showing the uploaded image along with the generated classification result (Benign/Malignant).
+
+![Demo Page](app_screenshots/demo.png)
+
+---
+### 🧠 Ensemble Prediction Results
+
+The system performs prediction using an ensemble of multiple deep learning architectures including EfficientNetB3, DenseNet121, and ResNet50.  
+Each model independently predicts the probability of benign and malignant classes, after which the final ensemble decision is generated using aggregated confidence scores.
+
+The interface displays:
+- Individual model predictions
+- Benign and malignant probability scores
+- Final ensemble classification
+- Confidence percentage
+- Example histopathological reference images
+
+This ensemble-based approach improves prediction robustness and reduces model-specific bias.
+
+![Ensemble Prediction](app_screenshots/description.png)
+
+---
 
 ## 🏆 Results
 
@@ -274,6 +306,11 @@ breast-cancer-detection/
 │
 ├── notebooks/
 │   └── breakhis-bcd-finalvers.ipynb
+│
+├── app_screenshots/
+│   ├── home.png
+│   ├── demo.png
+│   └── description.png
 │
 └── examples/
     ├── benign_adenosis.png
